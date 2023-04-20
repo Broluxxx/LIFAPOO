@@ -1,0 +1,6 @@
+https://prevision-meteo.ch/climat/journalier/lyon-bron/2022-01
+https://www.researchgate.net/figure/Evolution-moyenne-au-cours-dune-journee-de-la-temperature-de-la-couche-seche_fig9_333746814
+double Hiver =(x - 24) * (((0.000504973 * (x - 6) - 0.00363683) * (x - 15) - 0.0269444) * x + 0.00416667) + 3;
+double Printemps =  -0.0057356 * Math.pow(x, 3) + 0.135262 * Math.pow(x, 2) + 0.0615741 * x + 8;;
+double Été = (x - 24) * (((-0.00774177 * (x - 15) - 0.124537) * x) + 0.0125) + 18.3;
+double Automne = (x - 24) * (((-0.00360082 * (x - 15) - 0.05) * x) + 0.0166667) + 13.4;
